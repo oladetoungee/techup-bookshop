@@ -1,0 +1,94 @@
+.mother-container {
+  margin: 4rem 5rem;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 24px;
+
+  color: #1c2a39;
+}
+.banner-container {
+  margin-top: -3rem;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 4rem;
+}
+.title-bar {
+  margin-top: -2rem;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 2rem;
+  font-size: 12px;
+  line-height: 12px;
+
+  color: #5c6a79;
+}
+.nav-icons {
+  margin-top: -1rem;
+}
+.nav-icon {
+  margin: 1.2rem;
+}
+.banner {
+  width: 88rem;
+}
+
+.book, .rating {
+    display: flex;
+}
+.book-container {
+    justify-content: space-between;
+    margin: 4rem;
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(2, 600px);
+   
+  
+}
+.book-info {
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+  line-height: 0rem;
+}
+.book-author {
+    font-size: 13px;
+    line-height: 1rem;
+
+
+color: #5C6A79;
+}
+.book-title {
+    font-weight: 700;
+font-size: 16px;
+
+
+color: #1C2A39;
+
+}
+.book-price {
+    display: flex;
+    
+}
+.new-price {
+    font-size: 13px;
+
+
+color: #1C2A39;
+}
+.old-price {
+    font-size: 13px;
+   
+
+
+color: #5C6A79;
+    margin-left: .5rem;
+    text-decoration: line-through;
+}
+.buy {
+    background-color: white;
+    color: #4C3DB2;
+    padding: 1rem 3rem;
+}
