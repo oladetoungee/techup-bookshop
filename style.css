@@ -28,6 +28,7 @@
 }
 .nav-icons {
   margin-top: -1rem;
+margin-right: 2rem;
 }
 .nav-icon {
   margin: 1.2rem;
@@ -42,6 +43,7 @@
 .book-container {
     justify-items: center;
   margin-left: -3rem;
+
     display: grid;
   
     grid-gap: 50px 150px;
@@ -92,4 +94,6 @@ color: #5C6A79;
     background-color: white;
     color: #4C3DB2;
     padding: 1rem 3rem;
+    border: 1px solid #4C3DB2;
+    box-sizing: border-box;
 }
