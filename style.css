@@ -40,11 +40,12 @@
     display: flex;
 }
 .book-container {
-    justify-content: space-between;
-    margin: 4rem;
+    justify-items: center;
+  margin-left: -3rem;
     display: grid;
-    grid-gap: 70px;
-    grid-template-columns: repeat(2, 600px);
+  
+    grid-gap: 50px 150px;
+    grid-template-columns: repeat(2, 650px);
    
   
 }
